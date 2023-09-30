@@ -10,12 +10,12 @@ const Footer = () => {
         <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
           <div className='px-10 xs:px-0'>
             <h4 className='text-white text-lg font-semibold mb-4'>
-              Informace o mě
+              Informations about me
             </h4>
             <p className='text-gray-400 mb-4'>
               {' '}
-              Zde mě budete znát pod přezdívkou Slowbat a budu váš průvodce mých
-              kurzů na téma web development.
+              Here you will know me as a Slowbat and I will be your guide to mine
+              courses on web development.
             </p>
           </div>
           <div className='xs:ml-[5em] xs:pl-0 pl-10'>
@@ -36,7 +36,7 @@ const Footer = () => {
                   to='/theory'
                   className={`${styles.footerLinksStyles} ${styles.xsTransition} leading-8`}
                 >
-                  Teorie
+                  Theory
                 </Link>
               </li>
               <li>
@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
           <div className='pl-10 xs:pl-0 mt-2 xs:mt-0'>
             <h4 className='text-white text-lg font-semibold mb-4'>
-              Kontakty a sociální sítě
+              Contacts and Socials
             </h4>
             <p className='text-gray-400 mb-4'>
               Instagram:{' '}

@@ -41,7 +41,7 @@ const Business = () => {
           whileInView='show'
           className={`font-poppins font-semibold xs:text-[45px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full mt-20`}
         >
-           Zde najdete:
+          Here you will find:
         </motion.h2>
 
         <motion.p
@@ -50,10 +50,10 @@ const Business = () => {
           whileInView='show'
           className={`font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-14`}
         >
-          Teorii o tom co je to tvorba webů a jak taková tvorba webů vzniká. Jak
-          vytvářet webové stránky sami nebo pomocí nástrojů pro tvorbu webů. Jak
-          funguje web, jaké jazyky se zde používají a jaké frameworky jsou k
-          jazykům přidružené.
+          Theory about what is web development and how to create simple or modern websites. How
+          to create websites yourself or using websites builders. How
+          does the website work, what languages are used here and what frameworks are associated
+          with languages.
         </motion.p>
       </div>
 

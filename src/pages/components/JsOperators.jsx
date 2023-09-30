@@ -33,7 +33,7 @@ const JsOperators = () => {
     >
       <div className='container'>
         <h1 className={`${TheoryLayout.Headings1} text-center`}>Operátory</h1>
-        <p className={`${TailwindLayout.paragraphMap} my-[2em]`}>
+        <p className={`${TailwindLayout.paragraphMap} my-[2em] text-justify relative right-[1.5em]`}>
           {Operators.map((item) => (
             <span key={item.id}>{item.content}</span>
           ))}
@@ -48,7 +48,7 @@ const JsOperators = () => {
             variants={fadeIn('left', 'tween', 0.3, 1)}
             initial='hidden'
             whileInView='show'
-            className='text-white sm:bg-dimBlue bg-mediumDarkBlue rounded-[20px] sm:mx-0 -mx-[2em] text-2xl pb-[2em] mb-[5em]'
+            className='relative right-[0.5em] text-white bg-dimBlue rounded-[20px] sm:mx-0 -mx-[2em] text-2xl pb-[2em] mb-[5em]'
           >
             <h2 className={`${TheoryLayout.Headings2} text-center`}>
               Aritmeticé Operátory
@@ -83,7 +83,7 @@ const JsOperators = () => {
             variants={fadeIn('left', 'tween', 0.3, 1)}
             initial='hidden'
             whileInView='show'
-            className='text-white sm:text-2xl text-3xl sm:bg-dimBlue bg-mediumDarkBlue rounded-[20px] sm:mx-0 -mx-[1.5em] pb-[2em] mb-[5em]'
+            className='relative right-[0.5em] text-white sm:text-2xl text-3xl bg-dimBlue rounded-[20px] sm:mx-0 -mx-[1.5em] pb-[2em] mb-[5em]'
           >
             <h2 className={`${TheoryLayout.Headings2} text-center`}>
               Porovnávací Operátory

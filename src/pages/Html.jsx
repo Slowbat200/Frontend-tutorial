@@ -3,7 +3,7 @@ import { htmlTheory, htmlTags } from '../constants';
 import { motion } from 'framer-motion';
 import { fadeIn, staggerContainer } from '../utility/motion';
 import { TypingText } from '../components';
-import Htmlelements from './components/HtmlElements';
+import {Htmlelements, HtmlTags} from './components';
 
 const OpenCloseTags = [
   'Každá značka v HTML začíná otevírací značkou, která je napsána mezi znaky < a >. Otevírací značka definuje začátek elementu a často obsahuje název elementu. Například: <p> pro vytvoření odstavce, <h1> pro nadpis první úrovně. Po otevírací značce následuje uzavírací značka, která začíná znaky </, a poté následuje název elementu. Uzavírací značka označuje konec elementu. Například: </p> uzavře odstavec, </h1> uzavře nadpis první úrovně.',
@@ -54,7 +54,7 @@ const HTML = () => {
         className='flex justify-between items-center bg-dimBlue rounded-lg shadow-xl w-[90%] h-full text-left mt-[100px] mx-[5vw] sm:mx-[5em]'
       >
         {/** Styling headings inside main box */}
-        <div className='m-10 p-10'>
+        <div className='m-10 px-10 pt-10 pb-0'>
           <div className='flex flex-col items-center md:items-start md:text-left md:w-full md:max-w-md md:mx-auto md:mb-16 md:order-1 md:col-span-2'>
             <h1 className='text-white text-2xl md:text-4xl lg:text-5xl font-bold leading-none md:leading-none lg:leading-none md:pl-[100px] pt-[20px] md:pt-[50px] sm:pr-0 pr-[6em]'>
               Kapitola 2
@@ -93,6 +93,7 @@ const HTML = () => {
               </React.Fragment>
             ))}
           </motion.p>
+          <HtmlTags/>
           <Htmlelements />
         </div>
       </motion.div>

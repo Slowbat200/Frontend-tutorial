@@ -76,13 +76,13 @@ const Navbar = () => {
                 to='/'
                 className={`${styles.desktopLinkstyles} ${styles.xsTransition}`}
               >
-                Domů
+                Home
               </Link>
               <Link
                 to='/theory'
                 className={`${styles.desktopLinkstyles} ${styles.xsTransition}`}
               >
-                Teorie
+                Theory
               </Link>
               <Link
                 to='/html'
@@ -128,13 +128,13 @@ const Navbar = () => {
             to='/'
             className={`${styles.mobileLinkStyles} ${styles.xsTransition}`}
           >
-            Domů
+            Home
           </Link>
           <Link
             to='/theory'
             className={`${styles.mobileLinkStyles} ${styles.xsTransition}`}
           >
-            Teorie
+            Theory
           </Link>
           <Link
             to='/html'

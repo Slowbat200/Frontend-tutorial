@@ -31,35 +31,35 @@ export const features = [
     title: 'Teorie',
     icon: Theory,
     content:
-      'Co je to front-end a back-end, protokoly pro komunikaci s webem, vývojové prostředí pro developery a mnoho dalšího.',
+      'What is Front-end and Backend, protocols for communication with web, development environment for developers and much more.',
   },
   {
     id: 'feature-2',
     title: 'Html',
     icon: html5,
     content:
-      'Co je to HTML, druhy značek, historie HTML a mnoho příkladů a ukázek kódů.',
+      'What is HTML, types of tags, HTML history and so much examples and code samples.',
   },
   {
     id: 'feature-3',
     title: 'Css',
     icon: css3,
     content:
-      'Proč používat Css, historie Css, informace o preprocesorech, využití Css v praxi a mnoho příkladů a ukázek kódů.',
+      'Why use Css, history of Css, information about preprocessor, Css usage in practice and many examples and code samples.',
   },
   {
     id: 'feature-4',
     title: 'JavaScript',
     icon: js,
     content:
-      'Jak funguje JavaScript, jaké frameworky byly vytvořeny a mnoho dalších příkladů a ukázek kódů',
+      'How JavaScript works, what frameworks have been built and many more examples and code samples',
   },
   {
     id: 'feature-5',
     title: 'Tailwind',
     icon: Tailwind,
     content:
-      'Informace o jednom z nejpoužívanějším Css frameworku, provedu vás základní instalací a také jak tento framework správně používat.',
+      'Information about one of the most used Css framework, I will guide you through the basic installation and also how to use this framework correctly.',
   },
 ];
 
@@ -95,7 +95,19 @@ export const theory = [
     content:
       'Plánujte obsah stránky - jaké informace budou na stránce zahrnuty, jak budou uspořádány a jaká bude struktura.',
   },
+  {
+    id: 'theory 3',
+    content:
+      'Jako další budete potřebovat vývojové prostředí neboli IDE, kde všichni developeři vyvýjí své projekty. My zde budeme používat Visual Studio Code od Microsoftu.',
+  },
 ];
+
+export const TheorySec = [
+  {
+    id: 'Theory-0',
+    content: 'Po instalaci je dobré si stáhnout doplňky neboli extensions, které nám usnadní práci. Zde je pár doplňků, které je dobré si stáhnout: ',
+  }
+]
 
 /* The above code is exporting several arrays of objects containing information about frontend
 development, backend development, protocols, HTTP, HTTPS, and IDEs. Each object in the arrays has an
@@ -262,6 +274,144 @@ export const htmlElements = [
   },
 ];
 
+export const commonHtmlTags = [
+  {
+    tag: '<!DOCTYPE>:',
+    description: 'Defines the document type and version of HTML being used.',
+  },
+  {
+    tag: '<html>:',
+    description: 'The root element that wraps all the content on the web page.',
+  },
+  {
+    tag: '<head>:',
+    description:
+      'Contains information about your webpage. This includes things like title, links to stylesheets or scripts, meta data (like keywords), etc.',
+  },
+  {
+    tag: '<title>:',
+    description:
+      'Sets the title of the web page, which is displayed in the browsers title bar',
+  },
+  {
+    tag: '<meta>:',
+    description: `Meta tags are data about your website's contents (not its structure). Provides metadata about the HTML document, like character encoding and authorship.`,
+  },
+  {
+    tag: '<link>:',
+    description:
+      'Links to external resources like stylesheets (CSS) and icons.',
+  },
+  {
+    tag: '<style>:',
+    description:
+      'Contains inline CSS or links to an external CSS file for styling the document.',
+  },
+  {
+    tag: '<script>:',
+    description:
+      'Used to define JavaScript code. It can be placed either inside <body> tags or at the end of a page.',
+  },
+  {
+    tag: '<body>:',
+    description: `Contains the visible content of the web page, including text, images, and other elements. It's where you put your actual content.`,
+  },
+  {
+    tag: '<header>:',
+    description: `It contains introductory information about its nearest ancestor sectioning content.`,
+  },
+  {
+    tag: '<nav>:',
+    description: `It represents a collection of navigation links.`,
+  },
+  {
+    tag: '<main>:',
+    description: `Specifies the main content of the document, usually excluding headers, footers, and sidebars.`,
+  },
+  {
+    tag: '<article>:',
+    description:
+      'Represents self-contained content that could exist independently from other content.',
+  },
+  {
+    tag: `<section>:`,
+    description: `Defines a thematic grouping within a document, often used for styling purposes.`,
+  },
+  {
+    tag: '<aside>:',
+    description:
+      'Contains content tangentially related to the content around it, like sidebars.',
+  },
+];
+
+export const htmlTagsExample = [
+  {
+    tag: '<footer>:',
+    description: ` Contains the footer information, typically including copyright notices and contact details.`,
+  },
+  {
+    tag: '<p>:',
+    description:
+      'Paragraphs are block elements which contain one or more sentences.',
+  },
+  {
+    tag: '<h1>to<h6>:',
+    description:
+      'Headings of different levels, with <h1> being the highest and <h6> the lowest.',
+  },
+  {
+    tag: '<a>:',
+    description: 'Creates hyperlinks to other web pages or resources.',
+  },
+  {
+    tag: `<img>:`,
+    description: 'Display images on your page.',
+  },
+  {
+    tag: '<ul>:',
+    description: `Unordered lists represent items in no particular order. They can be nested inside eachother as well.`,
+  },
+  {
+    tag: '<ol>:',
+    description: `Ordered lists. The order in which items appear is important as they define their position in an ordered list.`,
+  },
+  {
+    tag: '<li>:',
+    description: 'List items are usually displayed as bullet points.',
+  },
+  {
+    tag: '<table>:',
+    description: `The table element defines an HTML table. A table consists of rows (tr) containing cells (td). Tables can be arranged in two`,
+  },
+  {
+    tag: '<tr>:',
+    description:
+      'Table rows are used for grouping table data. Each row is a group that contains cells.',
+  },
+  {
+    tag: '<th>:',
+    description:
+      'The first cell in each row defines what type of information it holds (e.g., header text).',
+  },
+  {
+    tag: '<td>:',
+    description:
+      'Each subsequent cell represents an individual piece of information.',
+  },
+  {
+    tag: '<form>:',
+    description: 'Creates an interactive form for user input.',
+  },
+  {
+    tag: '<input>:',
+    description: `Used inside forms to create controls such as buttons, checkboxes, radio buttons etc.`,
+  },
+  {
+    tag: '<textarea>',
+    description: `This element creates multi-line text inputs.`,
+  },
+];
+
 /* The code you provided is defining two constants: `CssTheory` and `CssSelectors`. */
 export const CssTheory = [
   {
@@ -329,14 +479,6 @@ export const Tailwindcss = [
     id: 'Tailwind 0',
     content:
       'Tailwindcss je jeden z populárních CSS frameworků,  který byl vyvinut tak, aby usnadnil vývoj webových stránek a aplikací. Jedná se o framework založený na konceptu utility-first CSS, což znamená, že namísto psaní vlastního CSS kódu se zaměřuje na používání předem definovaných CSS tříd pro rychlou a efektivní tvorbu rozhraní.',
-  },
-];
-
-export const InstallConfig = [
-  {
-    id: 'Install Config 0',
-    content:
-      'Ve VSCode si otevřete terminál buď pomocí klávesové zkratky `CTRL + ;` a nebo v horní liště vyberete položku terminál. Jakmile se vám terminál otevře tak do něj zadáte dva příkazy.',
   },
 ];
 

@@ -33,7 +33,7 @@ export const TailwindLayout = {
   container:
     'container flex items-center justify-center w-[90%] mx-[5em] my-2 px-5 py-5',
   NpmNpxSection:
-    'flex justify-center items-center w-fit h-full px-3 py-3 bg-blue-400',
+    'flex justify-center items-center w-fit h-full px-3 py-3 bg-gray-700 text-white rounded-lg',
 };
 
 /* The `TheoryLayout` object is defining a set of CSS styles for different elements related to theory
@@ -64,5 +64,12 @@ export const JsLayout = {
 export const HtmlLayout = {
   ElementBox:
     'px-5 py-5 bg-gray-800 rounded-xl w-[35vh] relative right-[3em] sm:w-fit sm:right-0 text-justify',
+
+  TagBox:
+    'px-5 py-5 bg-gray-800 rounded-xl w-[35vh] relative right-[8em] sm:w-fit sm:right-0',
+};
+export const HtmlTagLayout = {
+  TagsBox:
+    'px-10 py-5 bg-gray-800 rounded-xl h-fit sm:w-[40vh] sm:absolute relative right-[8em] bottom-[75em] sm:top-[100em] w-[35vh] sm:right-[12em] ',
 };
 export default styles;

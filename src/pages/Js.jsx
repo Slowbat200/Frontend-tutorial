@@ -3,8 +3,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../utility/motion';
 import { basicSyntax } from '../constants';
 import { JsLayout } from '../style';
-import JsDataTypes from './components/JsDataTypes';
-import JsOperators from './components/JsOperators';
+import { JsDataTypes, JsOperators } from './components';
 
 const Js = () => {
   const jsContent = (
@@ -24,7 +23,7 @@ const Js = () => {
           >
             Základní syntaxe
           </h1>
-          <div className='w-fit sm:w-[77%] relative left-0 sm:left-[8%] my-6'>
+          <div className='sm:w-[77%] w-[35vh] relative right-[2em] text-justify sm:left-[8%] my-6'>
             <p className='text-white text-[23px]'>
               {basicSyntax.map((item) => (
                 <span key={item.id}>{item.content}</span>

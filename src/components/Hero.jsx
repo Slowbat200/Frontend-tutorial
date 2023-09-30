@@ -22,9 +22,9 @@ const Hero = () => {
                 variants={fadeIn('right', 'tween', 0.5, 1)}
                 initial='hidden'
                 whileInView='show'
-                className='text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-none md:leading-none lg:leading-none'
+                className='text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-none md:leading-none lg:leading-none pl-5'
               >
-                Front-end tutorial
+                Web development tutorial
               </motion.h1>
             </div>
           </div>

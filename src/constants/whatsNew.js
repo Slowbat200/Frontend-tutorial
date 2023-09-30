@@ -48,4 +48,43 @@ export const Update = [
     description:
       'I modified the styles in the HTML section to make this section more mobile friendly.',
   },
+  {
+    date: '23.09.2023',
+    id: 'fixing-update',
+    name: 'Fixing small update',
+    description:
+      'In this patch I modified the styles in the Theory, CSS, JS sections to be better responsive on mobile devices.',
+  },
+  {
+    date: '24.09.2023',
+    id: 'big-update',
+    name: 'Big Update',
+    description:
+      'I have added new content to the HTML page called HTML tags where you can see the most popular tags and when you click on the button show description. A description of the given tag is displayed.',
+  },
+  {
+    date: '25.09.2023',
+    id: 'small-update',
+    name: 'Small update',
+    description: 'I have added new content to the Tailwind section.',
+  },
+  {
+    date: '29.09.2023',
+    id: 'big-update',
+    name: 'Big update',
+    description:
+      'I rewrited the main site to English. Next I change the text from Front-end tutorial to Web development tutorial. Next I added some content to Theory section and button for download Visual Studio Code.',
+  },
+  {
+    date: '30.09.2023',
+    id: 'small-update',
+    name: 'Small update',
+    description: `I've made some style changes on the Theory section.`,
+  },
+  {
+    date: '31.09.2023',
+    id: 'small-update',
+    name: `Small update`,
+    description: `In the Theory section, I stretched the text so it looks better on phones. Next, I modified the background of the operator box and finally added a mobile function in the HTML section that works so that when you click on show description, it takes you to the output.`,
+  },
 ];

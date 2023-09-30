@@ -17,7 +17,7 @@ const CssPropertiesValues = () => {
       </h1>
 
       <div className='mx-10 py-4 my-8 px-4 w-max-[230px] rounded-md h-full'>
-        <p className={`${TailwindLayout.paragraphMap}`}>
+        <p className={`${TailwindLayout.paragraphMap} w-[35vh] sm:w-full`}>
           {PropertiesAndValues.map((item) => (
             <span key={item.id}>{item.content}</span>
           ))}
